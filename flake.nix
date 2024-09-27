@@ -45,7 +45,7 @@
         };
       in {
         packages.default = main;
-        defaultPackage = main;
+#        defaultPackage = main;
       });
 }
 
