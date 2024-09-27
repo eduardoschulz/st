@@ -44,8 +44,8 @@
 
         };
       in {
-        packages.default = main;
-#        defaultPackage = main;
+#        packages.default = main;
+        defaultPackage = main;
       });
 }
 
